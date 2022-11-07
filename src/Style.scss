@@ -78,11 +78,11 @@
         .sidebar {
             flex: 1;
             border-right: 1px solid black;
-            background-color: #7b96ec;
+            background-color: #271e4f;
             .Navbar {
                 display: flex;
                 align-items: center;
-                background-color: #3733b4;
+                background-color: #2f2d52;
                 height: 50px;
                 padding: 10px;
                 color: #ddddf7;
@@ -134,10 +134,39 @@
                         background-color: #2f2d52;
                     }
                     img {
-                        width: 50px;
-                        height: 50px;
+                        width: 35px;
+                        height: 35px;
                         border-radius: 50px;
                         object-fit: cover;
+                    }
+                }
+            }
+            .Chats {
+                .userChat {
+                    padding: 3px 10px;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    color: white;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: #2f2d52;
+                    }
+                    img {
+                        width: 35px;
+                        height: 35px;
+                        border-radius: 50px;
+                        object-fit: cover;
+                    }
+                    .userChatInfo {
+                        span {
+                            font-size: 16px;
+                            font-weight: 400;
+                        }
+                        p {
+                            font-size: 12px;
+                            color: lightgray;
+                        }
                     }
                 }
             }
