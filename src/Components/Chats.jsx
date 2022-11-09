@@ -6,7 +6,7 @@ export const Chats = () => {
     <div className="userChat">
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpheC8qI7RQS1rZOPz81jg6ICAtqthnF3RXg&usqp=CAU"alt="" />
               <div className="userChatInfo">
-              <span>Mahdi</span>
+              <span>Behzad</span>
               <p>hello</p>
             </div>
           </div>

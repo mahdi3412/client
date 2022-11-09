@@ -1,5 +1,5 @@
-// import Register from "./Pages/Register.jsx";
-import Home from "./Pages/Home";
+import Register from "./Pages/Register.jsx";
+// import Home from "./Pages/Home";
 import "./Style.scss"
 // import {
 //     BrowserRouter as Router,
@@ -12,7 +12,7 @@ function App() {
     return (
 
         <
-        Home / >
+        Register / >
     );
 }
 
